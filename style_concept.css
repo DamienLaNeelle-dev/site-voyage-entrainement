@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+
+.scroll {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+}
+
+nav img {
+    width: 50%;
+    margin: 4% 0 0.5% 10%;
+}
+
+.onglets {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.onglets a {
+    list-style: none;
+    margin-left: 65px;
+    color: white;
+    text-decoration: none;
+}
+
+.inscription-connexion {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+
+.inscription-connexion li,
+.inscription-connexion a {
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+.inscription-connexion button {
+    padding: 5px 20px;
+    background-color: #a31b3d;
+    border: 1px solid transparent;
+    color: white
+}
+
+nav li:hover {
+    font-weight: bold;
+    color: #a31b3d;
+}
+
+.section_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.section_1_background {
+    background-image: url(/images/pexels-kaba-camara-4931333.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70%;
+}
+
+.section_1_text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_1_text h1 {
+    position: relative;
+    bottom: 300px;
+    left: 40%;
+    font-size: 3em;
+    color: rgba(163, 27, 61);
+}
+
+.section_1_text h2 p {
+    position: relative;
+    bottom: 50%;
+}
+
+.section_2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.section_2 img {
+    width: 200px;
+}
+
+.container div {
+    display: flex;
+}
